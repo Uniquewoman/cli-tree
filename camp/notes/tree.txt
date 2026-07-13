@@ -1,1 +1,14 @@
+$ ls -R camp
+camp:
+notes/  projects/
 
+camp/notes:
+day1.md  hello.txt  inspiration.md
+
+camp/projects:
+week1/
+
+camp/projects/week1:
+hello.txt
+ls -R camp > camp/notes/tree.txt
+cat camp/notes/tree.txt
